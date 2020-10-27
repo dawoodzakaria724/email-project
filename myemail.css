@@ -1,0 +1,110 @@
+body {
+    margin: 30px;
+}
+.my-container {
+    border: 1px solid green;
+}
+
+.my-col1 {
+    background-color: #919098;
+
+}
+
+.my-col2 {
+    background-color: #897C80;
+}
+
+.my-col3 {
+    background-color: #BA8F95;
+}
+
+.welcome {
+    color: white;
+}
+
+.myButton {
+	background-color:#ffab23;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:10px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.inbox {
+    color: white;
+}
+  
+form.searchBar input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+form.searchBar button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #ffab23;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+form.searchBar button:hover {
+    background: #ffab23;
+  }
+
+form.searchBar::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.toFrom{
+    font-size: 12px;
+    color: white;
+}
+
+.textBox{
+    background-color: white;
+    width: 500px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid black;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.emails {
+    color: white;
+}
+
+.emailSelected {
+    border: 5px solid #FFAB23;
+    padding: 10px;
+    border-radius: 26px 26px 26px 26px;
+    -webkit-box-shadow: 2px 6px 15px 1px rgba(0,0,0,0.7); 
+    box-shadow: 2px 6px 15px 1px rgba(0,0,0,0.7);
+    background-color: white;
+    color: black;
+}

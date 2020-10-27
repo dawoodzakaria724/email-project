@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="myemail.css">
+    <title>My Email</title>
+</head>
+<body>
+    <div class="container my-container">
+        <div class="row my-row">
+            <div class="col-2 my-col1">
+                <div class="welcome">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-image" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"></path>
+                        <path d="M10.648 7.646a.5.5 0 0 1 .577-.093L15.002 9.5V13h-14v-1l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71z"></path>
+                        <path fill-rule="evenodd" d="M4.502 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
+                    </svg>
+
+                    Welcome, Brock!
+                </div>
+                <br>
+                <div>
+                    <button class="myButton">Compose</button>
+                </div>
+                <br>
+                <div class = "inbox">
+                    <h5><strong>Inbox (1)</strong><br>
+                        Tagged<br>
+                        Important<br>
+                        Sent Mail<br>
+                        Drafts<br>
+                        Trash<br>
+                    </h5>
+                </div>
+            </div>
+            <div class="col-4 my-col2">
+                <form class="searchBar">
+                    <input type="text" placeholder="Search for Emails..." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+
+                <div class="emails">
+                    <br>
+                    <div>
+                        <h6 class="emailFrom">Linkedin - 02:45pm</h6>
+                        <h7 class="emailPreview"> You have a new connection request.</h7>
+                    </div>
+                    <br>
+                    <div class= "emailSelected">
+                        <h6 class="emailFrom">Michael Scott Daily Quotes - Jul 3, 2020</h6>
+                        <h7 class="emailPreview"> I'm optimistic because everyday I get a litte more desp...</h7>
+                    </div>
+                    <br>
+                    <div>
+                        <h6 class="emailFrom">LaMar Software - Feb 9, 2020</h6>
+                        <h7 class="emailPreview"> Learn how you can give us money by calling (209)322-7...</h7>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 my-col3">
+                <div class="toFrom">
+                    To: taylorlamarsoftware.io <br>
+                    From: re-reply@theofficenbc.com
+                </div>
+
+                <div class="quotesTitle">
+                    <h4 class="emailBody">Michael Scott Daily Quotes</h4>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-trash-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5a.5.5 0 0 0-1 0v7a.5.5 0 0 0 1 0v-7z"></path>
+                    </svg>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-reply-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.079 11.9l4.568-3.281a.719.719 0 0 0 0-1.238L9.079 4.1A.716.716 0 0 0 8 4.719V6c-1.5 0-6 0-7 8 2.5-4.5 7-4 7-4v1.281c0 .56.606.898 1.079.62z"></path>
+                    </svg>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-three-dots" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"></path>
+                    </svg>
+                </div>
+                <div class="emailBody">
+                    <p>
+                        "Friends joke with one another. 'Hey, you're poor.' 'Hey, your 
+                        momma's dead.' That's what friends do."
+                        <br>
+                        <br>
+                        "It's a good thing Russia doesn't exist anymore."
+                        <br>
+                        <br>
+                        "You cheated on me? When I specifically asked you not to?"
+                        <br>
+                        <br>
+                        "It just seems awfully mean. But sometimes, the ends justify the 
+                        mean."
+                        <br>
+                        <br>
+                        "Reverse psychology is an awesome tool. I don't know if you 
+                        guys know about it, but, basically, you make someone think 
+                        the opposite of what you believe, and that tricks them into 
+                        doing something stupid. Works like a charm."
+                    </p>
+                <br>
+                </div>
+                <div class="textBox">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-paperclip float-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4.5 3a2.5 2.5 0 0 1 5 0v9a1.5 1.5 0 0 1-3 0V5a.5.5 0 0 1 1 0v7a.5.5 0 0 0 1 0V3a1.5 1.5 0 1 0-3 0v9a2.5 2.5 0 0 0 5 0V5a.5.5 0 0 1 1 0v7a3.5 3.5 0 1 1-7 0V3z"></path>
+                    </svg>
+                    <button class="myButton">Send</button>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
